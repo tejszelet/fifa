@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Labdarúgó-világbajnoki döntők (1930–2026)</title>
+  </head>
+  <body>
+    <header class="hero">
+      <h1>Labdarúgó-világbajnoki döntők (1930–2026)</h1>
+    </header>
+
+    <main class="container">
+      <section class="search-box">
+        <form id="search-form">
+          <label for="cim">Keresel egy országot amelyik a döntőbe jutott?</label>
+          <div class="search-row">
+            <input type="text" id="cim" placeholder="keresés ország szerint" autocomplete="off" />
+            <button type="submit" class="btn btn-dark">keres</button>
+            <button type="button" id="clear-btn" class="btn btn-light">szűrés törlése</button>
+          </div>
+        </form>
+      </section>
+
+      <h2 class="msg">A labdarúgó-világbajnokságok döntőinek teljes listája 1930-tól 2026-ig</h2>
+      <div class="matches"></div>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
